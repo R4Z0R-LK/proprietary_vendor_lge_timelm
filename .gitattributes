@@ -1,0 +1,1 @@
+proprietary/vendor/lib/camera/com.qti.tuned.s5kgw1.bin filter=lfs diff=lfs merge=lfs -text
