@@ -1,0 +1,4 @@
+on property:sys.lmk.laus_mlim_intent=1
+    exec u:r:shell:s0 shell shell log adb -- /system/bin/sh /system/bin/am broadcast -a com.lge.laus.sysmon.appreport --ei type 1
+    setprop sys.lmk.laus_mlim_intent 0
+
